@@ -56,6 +56,9 @@
     <Compile Include="Controls\DummyUserControl.xaml.cs">
       <DependentUpon>DummyUserControl.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Controls\HotkeySettingsControl.xaml.cs">
+      <DependentUpon>HotkeySettingsControl.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Helpers\NavHelper.cs" />
     <Compile Include="Helpers\Observable.cs" />
     <Compile Include="Helpers\RelayCommand.cs" />
@@ -135,6 +138,10 @@
     <Page Include="Controls\DummyUserControl.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\HotkeySettingsControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="Styles\Page.xaml">
       <Generator>MSBuild:Compile</Generator>
